@@ -1,30 +1,38 @@
-/*
-#define PIN_DD4  (118)
-#define PIN_DD5  (119)
 
-#define PIN_D0   (2)
+#define PIN_D0   (0)
 #define PIN_D1   (1)
-#define PIN_D2   (4)
+#define PIN_D2   (2)
 #define PIN_D3   (3)
-#define PIN_D4   (8)
-#define PIN_D5   (7)
-#define PIN_D6   (10)
-#define PIN_D7   (9)
-#define PIN_D8   (20)
-#define PIN_D9   (19)
-#define PIN_D10  (22)
-#define PIN_D11  (21)
-#define PIN_D12  (63)
-#define PIN_D13  (64)
-*/
-#define PIN_LED0 (45)
-#define PIN_LED1 (44)
-#define PIN_LED2 (43)
-#define PIN_LED3 (42)
-#define PIN_LED4 (41)
-#define PIN_LED5 (39)
-#define PIN_LED6 (38)
-#define PIN_LED7 (37)
+#define PIN_D4   (4)
+#define PIN_D5   (5)
+#define PIN_D6   (6)
+#define PIN_D7   (7)
+#define PIN_D8   (8)
+#define PIN_D9   (9)
+#define PIN_D10  (10)
+#define PIN_D11  (11)
+#define PIN_D12  (12)
+#define PIN_D13  (13)
+#define PIN_D14  (14)
+#define PIN_D15  (15)
+
+#define PIN_LED0   (0)
+#define PIN_LED1   (1)
+#define PIN_LED2   (2)
+#define PIN_LED3   (3)
+#define PIN_LED4   (4)
+#define PIN_LED5   (5)
+#define PIN_LED6   (6)
+#define PIN_LED7   (7)
+#define PIN_LED8   (8)
+#define PIN_LED9   (9)
+#define PIN_LED10  (10)
+#define PIN_LED11  (11)
+#define PIN_LED12  (12)
+#define PIN_LED13  (13)
+#define PIN_LED14  (14)
+#define PIN_LED15  (15)
+
 /*
 #define PIN_SW1  (34)
 #define PIN_SW2  (33)
@@ -52,17 +60,3 @@
 */
 
 #define LED_BUILTIN PIN_LED0
-
-#define PIN_A0   (114)
-#define PIN_A1   (115)
-#define PIN_A2   (116)
-#define PIN_A3   (117)
-
-static const uint8_t A0 = PIN_A0;
-static const uint8_t A1 = PIN_A1;
-static const uint8_t A2 = PIN_A2;
-static const uint8_t A3 = PIN_A3;
-static const uint8_t A4 = 0;
-static const uint8_t A5 = 0;
-static const uint8_t A6 = 0;
-static const uint8_t A7 = 0;

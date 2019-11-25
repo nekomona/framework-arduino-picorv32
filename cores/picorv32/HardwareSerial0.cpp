@@ -69,7 +69,7 @@ ISR(USART_UDRE_vect)
 #else
   HardwareSerial Serial(&UBRR0H, &UBRR0L, &UCSR0A, &UCSR0B, &UCSR0C, &UDR0);
 #endif*/
-volatile uint8_t nullvol = NULL;                                                    // picorv32: work-a-round
+volatile uint8_t nullvol = (uint8_t)NULL;                                                    // picorv32: work-a-round
 HardwareSerial Serial(&nullvol, &nullvol, &nullvol, &nullvol, &nullvol, &nullvol);  // picorv32: work-a-round
 
 // Function that can be weakly referenced by serialEventRun to prevent
